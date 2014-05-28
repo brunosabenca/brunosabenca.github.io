@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Hello"
+date:   2014-05-28 20:34:40
+categories: musings
+---
+
+I just discovered [GitHub Pages](https://pages.github.com/) and [Jekyll](http://jekyllrb.com/) and will be experimenting with both here.
