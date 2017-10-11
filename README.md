@@ -1,2 +1,2 @@
-This is an experiment with Jekyll
+My personal page
 =================================
