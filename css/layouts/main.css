@@ -210,6 +210,16 @@ a.pure-button-primary {
     margin: 2em 0 1em;
 }
 
+.content-head a {
+    color: #2d3e50;
+    text-decoration: none;
+}
+
+.content-head a:hover {
+    color: #1f8dd6;
+    text-decoration: underline;
+}
+
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
     color: white;
