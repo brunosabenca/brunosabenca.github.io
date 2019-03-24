@@ -1,54 +1,152 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skilled software programmer and web developer.">
     <title>Bruno Sabença</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
     <!--[if lte IE 8]>
-            <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-        <![endif]-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
     <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
 
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/main-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/main.css">
+        <!--<![endif]-->
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        </script>
+</head>
 <body>
-    <div id="layout" class="pure-g">
-        <div class="sidebar pure-u-1">
-            <div class="header">
-                <img width="256" height="256" alt="Bruno Sabença&#x27;s avatar" class="nav-avatar" src="img/common/brunos-avatar.jpg">
-                <h1 class="site-title">Bruno Sabença</h1>
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <a class="pure-button" href="https://t.me/brunosabenca">
-                                <i class="fa fa-telegram"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="pure-button" href="https://github.com/brunosabenca">
-                                <i class="fa fa-github"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="pure-button" href="https://twitter.com/brunosabenca">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Bruno Sabença</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Projects</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="splash-container">
+    <div class="splash">
+        <img class="splash-image" src="img/common/profile-pic.jpg">
+        <h1 class="splash-head">Bruno Sabença</h1>
+        <p class="splash-subhead">Skilled software programmer and web developer.</p>
+        <p>
+            <a href="#projects" class="pure-button pure-button-primary">See my projects</a>
+        </p>
+    </div>
+    <h2 class="is-center chevron">
+        <i class="fa fa-chevron-down"></i>
+    </h2>
+</div>
+
+<div class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center">SKILLS</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead is-center">
+                    <i class="fa fa-rocket"></i>
+                    Fast learner
+                </h3>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead is-center">
+                    <i class="fa fa-wrench"></i>
+                    Resourceful
+                </h3>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead is-center">
+                    <i class="fa fa-coffee"></i>
+                    Energetic
+                </h3>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead is-center">
+                    <i class="fa fa-users"></i>
+                    Teamplayer
+                </h3>
             </div>
         </div>
     </div>
-</body>
 
+    <div id="projects">
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img width="300" alt="File Icons" class="pure-img-responsive" src="img/common/bioconsumo.png">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon">Bioconsumo</h2>
+
+            <p>
+                    A web application that helps managing and participating in local consumer groups. It is being developed for a small consumer group whose goals are bringinging products from small producers to local consumers.
+            </p>
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img width="300" alt="File Icons" class="pure-img-responsive" src="img/common/boxdstats.png">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon">BoxdStats</h2>
+
+            <p>
+                    View statistical data about your film watching habits as recorded on your Letterboxd account.
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">Feel free to hire me 😉</h2>
+    </div>
+</div>
+
+</body>
 </html>
