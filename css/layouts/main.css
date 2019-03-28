@@ -217,7 +217,6 @@ a.pure-button-primary {
 
 .content-head a:hover {
     color: #1f8dd6;
-    text-decoration: underline;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
