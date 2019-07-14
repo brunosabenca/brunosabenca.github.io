@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/brunosabenca
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brunosabenca.com
+  * I am brunosabenca (https://keybase.io/brunosabenca) on keybase.
+  * I have a public key with fingerprint 9ADA 8E84 59B0 F1BE 0C26  C1E6 CCD5 769C 91DD 4B3C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206a77fe474ee55fc992fdfd4ab028a67cdd8df77db58c43ac7a9a24895b6924c70a",
+      "fingerprint": "9ada8e8459b0f1be0c26c1e6ccd5769c91dd4b3c",
+      "host": "keybase.io",
+      "key_id": "ccd5769c91dd4b3c",
+      "kid": "01016226df0265448fd0832775f4285d9f3f7a493906a423aad0f7d5282b40c35ca50a",
+      "uid": "ce8e27c29ddc5788e7365aa258c39b19",
+      "username": "brunosabenca"
+    },
+    "merkle_root": {
+      "ctime": 1563115394,
+      "hash_meta": "b0b410de254158ea138fa00eedaf29ebf0c7ad2464324c7cb5e1ac48f5540c59",
+      "seqno": 5759670
+    },
+    "revoke": {
+      "sig_ids": [
+        "5979542e006dfc2d7cca115c0ee8a334d81f11dbc5f8aacb378236fb3f43ae710f"
+      ]
+    },
+    "service": {
+      "hostname": "brunosabenca.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1563115395,
+  "expire_in": 157680000,
+  "prev": "8e5db0031b93ecc75b0a3d2d83ae8aaeb80b5392cf45cb8a2a154e07d966b181",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMQFAnicbZN7bBRFHMePR1FLann5qEDRTU+i1rI7O7OzW+RlKFpRiEGiQI9jdma2
+PUpvy971oJYWEuSl4kGJ5ZErBREsWm2wBXk1gUoVbQNKAB8gNhVB6FUQLUhsqLNV
+YmLYfzY7+/19f5/fd2aOJPXxJPZqORWJrf1h8lO9mhvLijy+J8YtLZFMmxVLmSVS
+Pu958XmMh8L+/ACTMiVZAbJGMLY4xJBzhCxqGMBiFoPElIFONEwZ05mFMTORTqFK
+KCYGAVA3kKkZAFIsEyldsgLBXO4UOoFgWNgahBGd6xAZpmwpJpcp0KjCNUoZwppB
+DYUxaKpUFObZIbdCwJkkxDMCtlgTH/4evDvob3PLigaAxiwZaAhC3WKyrgKMkQWB
+jphhqRYm0FANMR4EKiFMtjBDQAcmlKmKKEE93EX/9OE6B5gCgzGKsK5zrGqIECAm
+Vg1TMVxhiDtBUsCF2nSKgnaImDxIiVSaLhVwJ38e9zu2HXYDpuGAK1OQpioKUg0o
+hiShPH8BDxO3WjahIjMOEFSQzomi6haRZc4ZsYDBTUsWCTMANai66VITcYVQMSFC
+ghy5LCE+P2hLmQgjQ8OyIHB4xM7nbvNQIFdEF5IyZ0nIwAaCgMuyiIkChiklAoiK
+VjpRVch0xVIUZlJk6YRQU8U6UDXLVC2xyxwrsiX5St1mTiRAe8zdvbpDBhnULhBU
+hY4dtqk9T/zNC4cLQ5luNuHiQle+gJv+f438ZiDIxGkRFRHuhAJ2UGQllP+PDaVL
+fGFhwOH+gKsQ50CXxeP24RFhqXPETFlWFdNQOaUYmTJRGWC6gBfzcFOXTWEDqAUR
+NXUCiIIglzEzNM1UdOW/HIEqOEmu8BTpBUm4yOFSaePhnL6eXomefgm93WvkSbxn
+wO3LdbouuTtSuzzw6W+jDk59adceL+xq0/ofr0+5kFIwPFa+cK6vpXnzqnj/txb2
+myOfLveSnfd2Dx8cHbRjWfesd+3OrJa1bf22x6+MzEp5sq3sg5auzdE+k4qL3vtr
+Rsv+Y/Xrh6SPHX0ouels1YHG+9uje5yEmzWLqs7ULx5TsQ/MX/lRFJd3PHu4Lhaa
+vnrd9+sPNbW+Uvpm5dCGH59p300u7C0oCn/bmHHe+3D09KOPzWnCP88+GcxJGRK7
+T9kdgr4HhhzPOHGu7IvUP0v63qzffmnKGP3Gio6ZFdnZFzemxT5ZAl++Nm3m52dq
+nrdzusYle+pgQntX6oBx2d+Men/EpU2dnfFRj1wdu22J5atYMOP85TW4a/z46pRh
+F/2rc+P7Wn+PRH/9+IXysukTrgwd85Nn67oSbf8mo+bA9dl/1LSObAkeTZ50q+7U
+8ODmvlsGVa8szJwZbVpjt214Dl3bXZvz1Y5aY6f368ve9sHNqb+ovikTFwxM3PB0
+864tJ5bvc2j8uNez+o2O+MH+R+cuefD6ukVD8ytqd2y7MPDtVVmlGz8bFhm9rKLS
+aeg94PUR8S/Xf/jigT4NOzembdWqpe/g5D3F4anetuvZ3Q9tyJvWlNa9eGKnxzc5
+qfvcq8NyWm+9U7blxKHwMRyM7X18/5UJsaqk1BtdqUubqremJaWdbyi467WQp2TF
+1cuV5xKmX+04e7Ty5JFyp+ruvwH/fROw
+=i1BF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brunosabenca
+
+==================================================================
